@@ -18,6 +18,8 @@ module Brcobranca
       # <b>REQUERIDO</b>: Tipo de moeda utilizada (Real(R$) e igual a 9)
       attr_accessor :moeda
       # <b>REQUERIDO</b>: Carteira utilizada
+      attr_accessor :numero_custom
+      # <b>OPCIONAL</b>: Numero do Documento
       attr_accessor :carteira
       # <b>OPCIONAL</b>: Variacao da carteira(opcional para a maioria dos bancos)
       attr_accessor :variacao
